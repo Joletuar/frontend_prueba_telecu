@@ -102,3 +102,11 @@ Sonner permite mostrar notificaciones emergentes de manera elegante y personaliz
 - **Notificaciones de Éxito:** Se muestra una notificación de éxito para informar al usuario sobre el resultado positivo.
 
 - **Notificaciones de Error:** Se muestra notificaciones de error cuando ha ocurrido un error en alguna acción.
+
+## Estilado de Componentes con Tailwind CSS
+
+Se ha implementado Tailwind CSS como la biblioteca principal para el estilado de componentes.
+
+### Tailwind CSS
+
+- **Tailwind CSS:** La aplicación utiliza Tailwind CSS como su sistema de diseño y estilado principal.
