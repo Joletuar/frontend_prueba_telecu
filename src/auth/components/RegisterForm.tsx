@@ -4,7 +4,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod/src/zod.js';
 
-import { ENV_VARIABLES } from '../../lib/constants/variables';
+import ENV_VARIABLES from '../../lib/constants/variables';
 import ROLS from '../../lib/constants/rols';
 
 import { toast } from 'sonner';

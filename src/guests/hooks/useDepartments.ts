@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 
-import { ENV_VARIABLES } from '../../lib/constants/variables';
+import ENV_VARIABLES from '../../lib/constants/variables';
 import { getLocalStorage } from '../../auth/actions/auth';
 
 import { type ErrorResponse } from '../../auth/interfaces/user';

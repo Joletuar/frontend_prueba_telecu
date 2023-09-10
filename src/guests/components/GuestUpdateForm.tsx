@@ -8,7 +8,7 @@ import { zodResolver } from '@hookform/resolvers/zod';
 import { Loading } from './shared/Loading';
 
 import STATUS from '../../lib/constants/status';
-import { ENV_VARIABLES } from '../../lib/constants/variables';
+import ENV_VARIABLES from '../../lib/constants/variables';
 import { toast } from 'sonner';
 
 import { ErrorMessage } from '../../lib/components/shared/ErrorMessage';

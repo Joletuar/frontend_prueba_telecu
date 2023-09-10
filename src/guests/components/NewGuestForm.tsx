@@ -6,7 +6,7 @@ import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
 
 import STATUS from '../../lib/constants/status';
-import { ENV_VARIABLES } from '../../lib/constants/variables';
+import ENV_VARIABLES from '../../lib/constants/variables';
 import { ErrorMessage } from '../../lib/components/shared/ErrorMessage';
 
 import { toast } from 'sonner';
