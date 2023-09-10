@@ -110,3 +110,25 @@ Se ha implementado Tailwind CSS como la biblioteca principal para el estilado de
 ### Tailwind CSS
 
 - **Tailwind CSS:** La aplicación utiliza Tailwind CSS como su sistema de diseño y estilado principal.
+
+# Credenciales de Usuario
+
+Puede registrarse y crear su propio usuario para acceder a aplicación.
+
+Pero si quiere ingresar directamente a continuación, se proporcionan las credenciales de usuario para acceder a la aplicación:
+
+## Usuario de Recepción
+
+- **Correo Electrónico:** recepcion@example.com
+- **Contraseña:** 123456
+
+## Usuario Supervisor
+
+- **Correo Electrónico:** supervision@example.com
+- **Contraseña:** 123456
+
+## Enlace a la Aplicación en Vivo
+
+Puedes acceder a la aplicación desplegada en vivo a través del siguiente enlace:
+
+**Link:** [Aplicación en Vivo](https://musical-dodol-cd4fe0.netlify.app)
