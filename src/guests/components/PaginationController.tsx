@@ -24,7 +24,7 @@ export const PaginationController = ({
           <button
             type='button'
             className={`flex items-center justify-center px-3 h-8 ml-0 leading-tight text-gray-500 bg-white border border-gray-300 rounded-l-lg hover:bg-gray-100 hover:text-gray-700 ${
-              page === 1 ? 'bg-gray-300 text-gray-700 cursor-not-allowed' : ''
+              page === 1 ? 'text-gray-300 bg-gray-700 cursor-not-allowed' : ''
             }`}
             onClick={() => handlePageClick(page - 1)}
             disabled={page === 1}
@@ -42,7 +42,7 @@ export const PaginationController = ({
               <button
                 type='button'
                 className={`flex items-center justify-center px-3 h-8 leading-tight text-gray-500 bg-white border border-gray-300 hover-bg-gray-100 hover:text-gray-700 ${
-                  page === pageNumber ? 'bg-gray-300 text-gray-700' : ''
+                  page === pageNumber ? 'text-gray-300 bg-gray-700' : ''
                 }`}
                 onClick={() => handlePageClick(pageNumber)}
               >
@@ -57,7 +57,7 @@ export const PaginationController = ({
           <button
             type='button'
             className={`flex items-center justify-center px-3 h-8 leading-tight text-gray-500 bg-white border border-gray-300 rounded-r-lg hover-bg-gray-100 hover:text-gray-700 ${
-              hasNextPage ? '' : 'bg-gray-300 text-gray-700 cursor-not-allowed'
+              hasNextPage ? '' : 'text-gray-300 bg-gray-700 cursor-not-allowed'
             }`}
             onClick={() => handlePageClick(page + 1)}
             disabled={!hasNextPage}
